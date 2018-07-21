@@ -1,6 +1,8 @@
-﻿
 mymail-parser
 ==========
+[![Made with Python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/downloads/)
+[![Built with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://emojipedia.org/growing-heart/)
+
 **mymail-parser** — это простой Python-скрипт, использующий мощности модуля *Selenium* для автоматизации парсинга почтовых адресов социальной сети "Мой мир@Mail.Ru".
 
 ***ДИСКЛЕЙМЕР.*** Инструмент был написан из исследовательских соображений и не несет в себе цели навредить кому-либо (чему-либо). Слово бойскаута.
@@ -16,6 +18,8 @@ mymail-parser
 
 Запуск
 ==========
+Для запуска необходим интерпретатор версии `3.x`.
+
 Выполнив описанные выше подготовления и разрешив необходимые зависимости с помощью *pip*
 ```
 $ pip install -r requirements.txt
@@ -39,7 +43,7 @@ $ python3 mymail_parser.py <ЧИСЛО_СКРОЛЛОВ>
 
 Результат сохраняется в файл *out.csv*.
 
-Post Scriptum
+Постскриптум
 ==========
 Скрипт разрабатывался и тестировался под ОС Windows.
 
