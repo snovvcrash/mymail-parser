@@ -1,10 +1,10 @@
-﻿#!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from collections import namedtuple
 
-LOGIN = ' '     # указать логин
-PASSWORD = ' '  # указать пароль
+LOGIN = 'LOGIN'        # указать логин
+PASSWORD = 'PASSWORD'  # указать пароль
 
 
 Credentials = namedtuple('Credentials', [
