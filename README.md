@@ -24,8 +24,8 @@ DEB-зависимости:
 - интерпретатор python3.x (или выше)
 
 PIP-зависимости:
- - selenium
- - tqdm
+ - [selenium](https://github.com/SeleniumHQ/selenium/tree/master/py "selenium/py at master · SeleniumHQ/selenium")
+ - [tqdm](https://github.com/tqdm/tqdm "tqdm/tqdm: A fast, extensible progress bar for Python and CLI")
 
 Выполнив описанные выше подготовления и разрешив необходимые зависимости в один клик с помощью `pip`
 ```
