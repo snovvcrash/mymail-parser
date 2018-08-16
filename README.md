@@ -50,4 +50,4 @@ $ python3 mymail_parser.py <ЧИСЛО_СКРОЛЛОВ>
 
 Если этот инструмент оказался полезен кому-либо, угостить меня кофе можно по ссылке ниже :coffee:
 
-[![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoff.ee/snovvcrash)
+[![Coffee](https://user-images.githubusercontent.com/23141800/44239487-3df51780-a1c2-11e8-8fd5-4653f971ee1b.png)](https://buymeacoff.ee/snovvcrash)
