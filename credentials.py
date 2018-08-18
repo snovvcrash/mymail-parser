@@ -3,8 +3,8 @@
 
 from collections import namedtuple
 
-LOGIN = 'LOGIN'        # СѓРєР°Р·Р°С‚СЊ Р»РѕРіРёРЅ
-PASSWORD = 'PASSWORD'  # СѓРєР°Р·Р°С‚СЊ РїР°СЂРѕР»СЊ
+LOGIN = 'LOGIN'        # указать логин
+PASSWORD = 'PASSWORD'  # указать пароль
 
 
 Credentials = namedtuple('Credentials', [
