@@ -22,6 +22,6 @@ env.bak/
 venv.bak/
 
 # Other files
-\#misc/
+misc/
 geckodriver.log
 out.csv
