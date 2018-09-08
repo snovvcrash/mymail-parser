@@ -3,10 +3,10 @@
 
 """
 @file mymail_parser.py
-@author Sam Freeside <snovvcrash@protonmail.com>
+@author Sam Freeside <scr.im/emsnovvcrash>
 @date 2018-07
 
-@brief Парсер email-адресов соц. сети "Мой мир@Mail.Ru".
+@brief ГЏГ Г°Г±ГҐГ° email-Г Г¤Г°ГҐГ±Г®Гў Г±Г®Г¶. Г±ГҐГІГЁ "ГЊГ®Г© Г¬ГЁГ°@Mail.Ru".
 
 @license
 Copyright (C) 2018 Sam Freeside
@@ -38,10 +38,10 @@ from tqdm import tqdm
 
 from credentials import mymail
 
-GECKODRIVER_PATH = ' '  # указать путь к веб-драйверу FF'а
-HEADLESS = True  # изменить на "False", чтобы в процессе выполнения открылось окно браузера
+GECKODRIVER_PATH = ' '  # ГіГЄГ Г§Г ГІГј ГЇГіГІГј ГЄ ГўГҐГЎ-Г¤Г°Г Г©ГўГҐГ°Гі FF'Г 
+HEADLESS = True  # ГЁГ§Г¬ГҐГ­ГЁГІГј Г­Г  "False", Г·ГІГ®ГЎГ» Гў ГЇГ°Г®Г¶ГҐГ±Г±ГҐ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГї Г®ГІГЄГ°Г»Г«Г®Г±Гј Г®ГЄГ­Г® ГЎГ°Г ГіГ§ГҐГ°Г 
 
-SEARCH_QUERY = 'https://my.mail.ru/my/search_people?&name=John Doe'  # указать поисковой запрос
+SEARCH_QUERY = 'https://my.mail.ru/my/search_people?&name=John Doe'  # ГіГЄГ Г§Г ГІГј ГЇГ®ГЁГ±ГЄГ®ГўГ®Г© Г§Г ГЇГ°Г®Г±
 
 
 def get_driver():
