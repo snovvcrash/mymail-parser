@@ -3,7 +3,7 @@
 
 """
 @file mymail_parser.py
-@author Sam Freeside <snovvcrash@protonmail.com>
+@author Sam Freeside <snovvcrash@protonmail[.]ch>
 @date 2018-07
 
 @brief Парсер email-адресов соц. сети "Мой мир@Mail.Ru".
