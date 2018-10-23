@@ -39,17 +39,15 @@ from tqdm import tqdm
 from credentials import mymail
 
 GECKODRIVER_PATH = ' '  # указать путь к веб-драйверу FF'а
-HEADLESS = True  # изменить на "False", чтобы в процессе выполнения открылось окно браузера
-
 SEARCH_QUERY = 'https://my.mail.ru/my/search_people?&name=John Doe'  # указать поисковой запрос
 
 
 def get_driver():
 	options = Options()
-	options.set_headless(headless=HEADLESS)
+	options.add_argument(--headless)  # закомментировать, чтобы в процессе выполнения открылось окно браузера
 
 	driver = webdriver.Firefox(
-		firefox_options=options,
+		options=options,
 		executable_path=GECKODRIVER_PATH
 	)
 
