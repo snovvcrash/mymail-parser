@@ -32,7 +32,7 @@ import sys
 
 from random import uniform, randint
 
-from selenium import webdriver
+from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
 from tqdm import tqdm
 
@@ -44,9 +44,9 @@ SEARCH_QUERY = 'https://my.mail.ru/my/search_people?&name=John Doe'  # указ�
 
 def get_driver():
 	options = Options()
-	options.add_argument(--headless)  # закомментировать, чтобы в процессе выполнения открылось окно браузера
+	options.add_argument('--headless')  # закомментировать, чтобы в процессе выполнения открылось окно браузера
 
-	driver = webdriver.Firefox(
+	driver = Firefox(
 		options=options,
 		executable_path=GECKODRIVER_PATH
 	)
